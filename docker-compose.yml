@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  app:
+    image: jenkins/jenkins:latest
+    ports:
+      - 8080:8080/tcp
+      - 50000:50000/tcp
